@@ -54,8 +54,8 @@
     "gulp-util": "3.0.6",
     "isstream": "0.1.2",
     "path": "0.12.7",
-    "pipeline-test-node": "0.4.1",
-    "pipeline-validate-js": "1.0.0-rc",
+    "pipeline-test-node": "1.0.1",
+    "pipeline-validate-js": "1.0.0-3rc",
     "sinon": "1.17.3",
     "sinon-chai": "2.8.0",
     "stream-assert": "2.0.3"
