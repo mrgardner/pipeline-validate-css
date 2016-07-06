@@ -52,21 +52,6 @@ describe('check inner functions spies', function() {
     spy.should.have.been.calledWith('Restoring CSS Filter.');
   });
 
- //  it('Invalid file simulation', function () {
- //    var stream = function(){
- //    	gulp
-	//     .src(fixtures('test-css1.css'))
-	//     .pipe(validatePipeline().validateCSS());
-	//   };
-
-	//   stream();
-	//   // setTimeout(function(){
-	//   // 	it('should fail', function(){
-	//   // 			  	spy.should.have.been.calledWith('NO oTHER OPTIONS');
-	//   // 	});
-	//   // 	// spy.should.have.been.calledWith('CUSTOM');
-	//   // 	// true.should.equal(false)
-
-	//   // }, 5);
-	// });
+  // TODO Write tests to handle invalid file simulation
+  it('Invalid file simulation');
 });
