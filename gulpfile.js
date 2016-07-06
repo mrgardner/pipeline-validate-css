@@ -3,20 +3,6 @@
 var fs = require('fs');
 var gulp = require('gulp');
 var testPipeline = require('pipeline-test-node');
-
-var cssConfig = {
-  plugins: {
-    istanbul: {
-      writeReports: {
-        reporters: ['html']
-      },
-      thresholds: {
-        global: 60
-      }
-    }
-  }
-};
-
 var validateCssPipeline = require('./src/index.js')();
 var validatePipeline = require('pipeline-validate-js');
 
@@ -51,7 +37,7 @@ gulp.task('default', ['validateCSS'], function() {
   deleteFolderRecursive(dirPath);
   return gulp
     .src(config.files)
-    .pipe(testPipeline.test(cssConfig));
+    .pipe(testPipeline.test());
 
   function deleteFolderRecursive (dir) {
     if (fs.existsSync(dir)) {
