@@ -15,12 +15,11 @@ module.exports = {
   }
 };
 
-
 function pipelineFactory() {
   var stream;
 
   gutil.log('Validating CSS files.');
-  stream =  lazypipe()
+  stream = lazypipe()
     .pipe(function() {
       return cssFilter;
     })
