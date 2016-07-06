@@ -55,7 +55,7 @@
     "isstream": "0.1.2",
     "path": "0.12.7",
     "pipeline-test-node": "1.0.1",
-    "pipeline-validate-js": "1.0.0-3rc",
+    "pipeline-validate-js": "1.0.0-rc3",
     "sinon": "1.17.3",
     "sinon-chai": "2.8.0",
     "stream-assert": "2.0.3"
