@@ -10,7 +10,7 @@ var cssConfig = {
     },
     istanbul: {
       writeReports: {
-        reporters: ['html']
+        reporters: ['html','json', 'text-summary', 'cobertura']
       },
       thresholds: {
         global: 60
