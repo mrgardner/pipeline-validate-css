@@ -14,7 +14,6 @@ var fixtures = function (glob) { return path.join(__dirname, 'fixtures', glob); 
 chai.should();
 chai.use(sinonChai);
 
-
 describe('pipeline-validate-css', function() {
   describe('Passing correct CSS', function() {
     var stream;
