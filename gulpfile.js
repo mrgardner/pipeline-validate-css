@@ -5,15 +5,9 @@ var gulp = require('gulp');
 var testPipeline = require('pipeline-test-node');
 var cssConfig = {
   plugins: {
-    mocha: {
-      reporter: 'spec'
-    },
     istanbul: {
-      writeReports: {
-        reporters: ['html','json', 'text-summary', 'cobertura']
-      },
       thresholds: {
-        global: 60
+        global: 75
       }
     }
   }
@@ -69,5 +63,3 @@ gulp.task('default', ['validateCSS'], function() {
     }
   }
 });
-
-
