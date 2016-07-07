@@ -7,7 +7,7 @@ var cssConfig = {
   plugins: {
     istanbul: {
       thresholds: {
-        global: 75
+        global: 60
       }
     }
   }
